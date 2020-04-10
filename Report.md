@@ -17,6 +17,7 @@ E = 1, E_decay = 0.001, Emin = 0.05 and decay rule is LINEAR 	E = E - E_decay. T
 
 E = 1, E_decay = 0.995, Emin = 0.05 and decay rule is Exponential	E = E * E_decay. The result is
 
+![](scores.png)
 
 # Hyperparameters
 
@@ -30,7 +31,7 @@ network updates (UPDATE_EVERY) : 	4 	\n
 
 # Plot of Rewards
 
-![](blob/master/Plot1.png)
+![](Plot1.png)
 
 # Result
 
