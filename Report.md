@@ -5,18 +5,27 @@
 1 The agent is a Deep Neural Network with the following architecture
 
 First layer	37 Neurons 	Input Layer
+
 Second layer	64 Neurons	First Hidden Layer	Relu
+
 Third layer 	64 Neurons 	Second Hidden Layer	Relu
+
 Final layer	4 Neurons	Output layer
 
-since the env is giving us state information we dont need a convolutional layer at the beginning.
+since the environment is giving us state information we dont need a convolutional layer at the beginning.
 
 # An Epsillon Greedy ACTION SELECTION policy is used.
 This rule is make the balance of EXPLORATION and EXPLOITATION for the agent while learning.
-E = 1, E_decay = 0.995, Emin = 0.05 and decay rule is Exponential	E = E * E_decay.
+
+E = 1
+
+E_decay = 0.995
+
+Emin = 0.05 
+
+decay rule is Exponential	E = E * E_decay.
 
 ![](EpsillonOverEpisodes.png)
-
 
 
 # Hyperparameters
@@ -48,6 +57,9 @@ The agent was able to reach the goal of average score 13 in 504 episodes.
 a. Train the agent without giving the state information rather providing pixels directly.
 
 b. Improve the dqn with the extensions like :
+
     Double dqn, 
+
     Dueling dqn and 
-    making the replay buffer to be Prioritized experience replay.
+    
+    Making the replay buffer to be Prioritized experience replay.
