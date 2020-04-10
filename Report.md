@@ -17,8 +17,7 @@ E = 1, E_decay = 0.995, Emin = 0.05 and decay rule is Exponential	E = E * E_deca
 
 ![](EpsillonOverEpisodes.png)
 
-The result is
-![](score.png)
+
 
 # Hyperparameters
 
@@ -41,8 +40,9 @@ network updates (UPDATE_EVERY) : 	4
 
 # Result
 
-The agent was able to reach the goal of average score 13 in 504 episodes
+The agent was able to reach the goal of average score 13 in 504 episodes.
 
+![](score.png)
 # Ideas for Future work 
 
 a. Train the agent without giving the state information rather providing pixels directly.
