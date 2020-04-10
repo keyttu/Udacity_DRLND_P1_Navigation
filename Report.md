@@ -18,7 +18,7 @@ E = 1, E_decay = 0.995, Emin = 0.05 and decay rule is Exponential	E = E * E_deca
 ![](EpsillonOverEpisodes.png)
 
 The result is
-![](scores.png)
+![](score.png)
 
 # Hyperparameters
 
