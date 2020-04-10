@@ -46,4 +46,8 @@ The agent was able to reach the goal of average score 13 in 504 episodes
 # Ideas for Future work 
 
 a. Train the agent without giving the state information rather providing pixels directly.
-b. Improve the dqn with the extensions like : Double dqn, Dueling dqn and making the replay buffer to be Prioritized experience replay.
+
+b. Improve the dqn with the extensions like :
+    Double dqn, 
+    Dueling dqn and 
+    making the replay buffer to be Prioritized experience replay.
