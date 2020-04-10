@@ -4,15 +4,15 @@
 
 1 The agent is a Deep Neural Network with the following architecture
 
-First layer	37 Neurons 	Input Layer
+First layer  |   37 Neurons 	|    Input Layer
 
-Second layer	64 Neurons	First Hidden Layer	Relu
+Second layer  |  64 Neurons	 |   First Hidden Layer   |   Relu
 
-Third layer 	64 Neurons 	Second Hidden Layer	Relu
+Third layer   |  64 Neurons 	|    Second Hidden Layer	|    Relu
 
-Final layer	4 Neurons	Output layer
+Final layer	 |	4 Neurons	|	Output layer
 
-since the environment is giving us state information we dont need a convolutional layer at the beginning.
+since the environment is giving us state information we don't need a convolutional layer at the beginning.
 
 # An Epsillon Greedy ACTION SELECTION policy is used.
 This rule is make the balance of EXPLORATION and EXPLOITATION for the agent while learning.
