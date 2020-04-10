@@ -11,12 +11,11 @@ Final layer	4 Neurons	Output layer
 
 since the env is giving us state information we dont need a convolutional layer at the beginning.
 
-# An Epsillon Greedy ACTION SELECTION policy is used. These are the different ways tested and commited to the best one
-
-E = 1, E_decay = 0.001, Emin = 0.05 and decay rule is LINEAR 	E = E - E_decay. The result is
-
-E = 1, E_decay = 0.995, Emin = 0.05 and decay rule is Exponential	E = E * E_decay. The result is
-
+# An Epsillon Greedy ACTION SELECTION policy is used.
+This rule is make the balance of EXPLORATION and EXPLOITATION for the agent while learning.
+E = 1, E_decay = 0.995, Emin = 0.05 and decay rule is Exponential	E = E * E_decay.
+![](EpsillonOverEpisodes.png)
+The result is
 ![](scores.png)
 
 # Hyperparameters
