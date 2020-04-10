@@ -14,18 +14,25 @@ since the env is giving us state information we dont need a convolutional layer 
 # An Epsillon Greedy ACTION SELECTION policy is used.
 This rule is make the balance of EXPLORATION and EXPLOITATION for the agent while learning.
 E = 1, E_decay = 0.995, Emin = 0.05 and decay rule is Exponential	E = E * E_decay.
+
 ![](EpsillonOverEpisodes.png)
+
 The result is
 ![](scores.png)
 
 # Hyperparameters
 
-replay buffer size (BUFFER_SIZE): 	int(1e5) \n
-minibatch size (BATCH_SIZE) : 		64 \n
-discount factor (GAMMA) : 		0.99 		\n
-soft update of target parameters(TAU): 	1e-3 		\n
-learning rate (LR) : 			5e-4 \n
-network updates (UPDATE_EVERY) : 	4 	\n
+replay buffer size (BUFFER_SIZE): 	int(1e5)
+
+minibatch size (BATCH_SIZE) : 		64 
+
+discount factor (GAMMA) : 		0.99 		
+
+soft update of target parameters(TAU): 	1e-3 	
+
+learning rate (LR) : 			5e-4 
+
+network updates (UPDATE_EVERY) : 	4 	
 
 
 # Plot of Rewards
