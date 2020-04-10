@@ -30,7 +30,7 @@ network updates (UPDATE_EVERY) : 	4 	\n
 
 # Plot of Rewards
 
-![]Plot1.png
+![](blob/master/Plot1.png)
 
 # Result
 
